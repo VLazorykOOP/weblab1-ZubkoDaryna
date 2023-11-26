@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+   <meta charset="utf-8">
+   <meta name="author" content="Зубко Дарина Євгенівна">
+   <meta name="description" content="Приклад веб-сторінки">
+   <meta name="keywords" content="веб-сторінка, розробка, HTML-посібник">
+   <title>About me</title>
+   <style>
+
+
+      body {
+         height: 100vh;
+         background-size: cover;
+         background-position: center;
+		 background-color: rgb(255, 255, 255);
+      }
+
+      header {
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   background: rgba(250, 156, 255, 0.9); /* Додавання прозорого фону */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 8%;
+   z-index: 1;
+}
+
+      header .logo {
+         color: rgba(46, 4, 85, 0.824); 
+         font-size: 46px;
+      }
+      .info-container {
+         text-align: center;
+         margin-top: 80px;
+      }
+      .table-container {
+         margin-top: 30px; 
+      }
+
+      table.iksweb {
+         width: 100%;
+         border-collapse: collapse;
+      }
+      
+      table.iksweb td, table.iksweb th {
+         border: 1px solid #595959;
+         padding: 3px;
+      }
+      
+      table.iksweb th {
+         background: #347c99; 
+         color: #fff; 
+      }
+    
+
+   </style>
+</head>
+<body>
+   <header>
+      <a href="#" class="logo">Lab4</a>      
+   </header>
+   <div class="info-container">
+    <h1>Ознайомитися з товарами і інформацією про наявні ліки можна тут:</h1>
+ </div>
+
+   <div class="table-container">
+
+   
+</div>
+<table class="iksweb">
+	<tbody>
+		<tr>
+			<td>Назва	</td>
+			<td colspan="7">Загальні характеристики/номер партії	</td>
+			<td colspan="8">Дозування:</td>
+			<td colspan="2">Ціна, грн</td>
+		</tr>
+		<tr>
+			<td>Адонізид	</td>
+			<td colspan="3">Загальні характеристики/номер партії	</td>
+			<td colspan="2">Хворобливі відчуття в животі; нудота і блювання	</td>
+			<td colspan="2">56145AS	</td>
+			<td colspan="3">Дорослі/діти</td>
+			<td colspan="3">3 рази на день</td>
+			<td colspan="2">2 рази на день</td>
+			<td colspan="2">455</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Бензокаїн	</td>
+			<td colspan="3">Біль у горлі, герпес, виразка у роті, зубний біль	</td>
+			<td colspan="2">Може викликати алергічні реакції	</td>
+			<td colspan="2" rowspan="2">56145AS	</td>
+			<td colspan="3">Дор555	ослі</td>
+			<td colspan="5">3 рази на день</td>
+			<td colspan="2" rowspan="2">555	</td>
+		</tr>
+		<tr>
+			<td colspan="3">Терапія слабкого або помірного больового синдрому при головному або зубному болю</td>
+			<td colspan="2">З боку психіки: відчуття страху, неспокій, тривога, дратівливість. З боку серцево-судинної системи: тахікардія, аритмія, серцебиття, артеріальна гіпертензія	</td>
+			<td colspan="3">Діти від 2 років/до двох років</td>
+			<td colspan="3">2 раз на день</td>
+			<td colspan="2">1 раз на день</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Валідол	</td>
+			<td colspan="3">Функціональні кардіалгії, напади стенокардії ангіоневротичного характеру	</td>
+			<td colspan="2">Нудота, неприємні відчуття в животі, сльозотеча, запаморочення	</td>
+			<td colspan="2" rowspan="2">С67877В	</td>
+			<td colspan="3">Дорослі</td>
+			<td colspan="5">3 рази на день</td>
+			<td colspan="2" rowspan="2">146	</td>
+		</tr>
+		<tr>
+			<td colspan="3">З боку нервової системи: головний біль</td>
+			<td colspan="2">Терапія слабкого або помірного больового синдрому при головному або зубному болю</td>
+			<td colspan="3">Діти від 2 років/до двох років</td>
+			<td colspan="3">1 раз на день</td>
+			<td colspan="2">Заборонено</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Гематоген	</td>
+			<td colspan="3">Допоміжний засіб при анеміях різного генезу, особливо постгеморагічній і залізодефіцитній	</td>
+			<td colspan="2">Нудота, діарея	</td>
+			<td colspan="2" rowspan="2">A53W45	</td>
+			<td colspan="3">Дорослі</td>
+			<td colspan="5">3 рази на день</td>
+			<td colspan="2" rowspan="2">125	</td>
+		</tr>
+		<tr>
+			<td colspan="3">З боку психіки: відчуття страху, неспокій, тривога, дратівливість. З боку серцево-судинної системи: тахікардія, аритмія, серцебиття, артеріальна гіпертензія	</td>
+			<td colspan="2">З боку нервової системи: головний біль</td>
+			<td colspan="3">Діти від 2 років/до двох років</td>
+			<td colspan="3">3 раз на день</td>
+			<td colspan="2">2 рази на день</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Гліквідон	</td>
+			<td colspan="3">При цукровому діабеті ІІ типу при неефективності дієтотерапії та зниженні маси тіла	</td>
+			<td colspan="2">При цукровому діабеті ІІ типу при неефективності дієтотерапії та зниженні маси тіла	</td>
+			<td colspan="2" rowspan="2">54H4T	</td>
+			<td colspan="3">Дорослі</td>
+			<td colspan="5">3 рази на день</td>
+			<td colspan="2" rowspan="2">1251</td>
+		</tr>
+		<tr>
+			<td colspan="3">З боку нервової системи: головний біль</td>
+			<td colspan="2">З боку психіки: відчуття страху</td>
+			<td colspan="3">Діти від 2 років/до двох років</td>
+			<td colspan="3">1 раз на день</td>
+			<td colspan="2">Заборонено</td>
+		</tr>
+		<tr>
+			<td>Бромгексин	</td>
+			<td colspan="3">Гострі та хронічні бронхіти, бронхіальна астма, первинні і вторинні форми туберкульозу органів дихання, пневмонія	</td>
+			<td colspan="2">боку центральної нервової системи: головний біль (за типом мігрені), запаморочення	</td>
+			<td colspan="2">YG5675TG	</td>
+			<td colspan="3">Дорослі/діти</td>
+			<td colspan="3">3 рази на день</td>
+			<td colspan="2">2 рази на день</td>
+			<td colspan="2">1002	</td>
+		</tr>
+		<tr>
+			<td colspan="6">Цитрамон-Дарниця	</td>
+			<td colspan="2">Y564H</td>
+			<td colspan="8">Всі</td>
+			<td colspan="2">37</td>
+		</tr>
+	</tbody>
+</table><section id="contact">
+    <br>
+    <marquee>За необхідності скористайтеся наступною інформацією і зв'яжіться з нами </marquee>
+   <ul>
+	<li>Адреса: Глибока долина, Волхвів вул., 13</li>
+	<li>Телефон: +380123456789</li>
+	<li>Email: info@elfish.health.formula.com</li>
+  </ul> 
+ </section>
+
+ <footer>
+    <p>&copy; <b>2023 Аптека "Ельфійська Формула Здоров'я"</b></p>
+ </footer>
+
+</body>
+</html>
